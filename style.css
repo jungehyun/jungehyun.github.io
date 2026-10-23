@@ -31,7 +31,7 @@ section{padding-top:64px}
 .what b{color:var(--ink);font-weight:600}
 .mark{justify-self:end;display:flex;align-items:center;justify-content:flex-end;width:130px;height:48px}
 .logo{width:auto;height:34px;max-width:130px;object-fit:contain;display:block}
-.logo.tall{height:44px}
+.logo.tall{height:46px}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
 .about-text{max-width:72ch}
@@ -60,7 +60,9 @@ footer p{margin:0 0 6px}
 .small{font-size:.82rem}
 
 @media (max-width:860px){
- .top nav a{margin-left:14px;font-size:.84rem}
+ .brand{white-space:nowrap}
+ .top nav a{margin-left:12px;font-size:.8rem}
+ .top nav a:nth-child(2),.top nav a:nth-child(3){display:none}
  .hero{grid-template-columns:1fr;gap:28px;padding-top:40px}
  .xp{grid-template-columns:1fr;gap:6px}
  .mark{justify-self:start;justify-content:flex-start}
