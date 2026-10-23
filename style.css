@@ -1,0 +1,31 @@
+:root{--bg:#fbfaf7;--fg:#222;--muted:#6b6b6b;--accent:#7a5a3a;--rule:#e4e0d8;--tag:#f0ebe3}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--fg:#e8e6e1;--muted:#a09c94;--accent:#d2a977;--rule:#2e2c28;--tag:#26241f}}
+*{box-sizing:border-box}
+html{font-size:17px;-webkit-text-size-adjust:100%}
+body{margin:0;padding:0 20px;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.55}
+header.top,nav.menu,main,footer{max-width:720px;margin:0 auto}
+header.top{display:flex;gap:28px;align-items:center;padding:56px 0 20px}
+.photo{width:120px;height:120px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--rule)}
+h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:500;font-size:2.1rem;margin:0 0 6px;letter-spacing:.2px}
+h2{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:500;font-size:1.45rem;margin:0 0 14px;padding-top:40px}
+h3{font-size:1.02rem;margin:0 0 4px;font-weight:600}
+.role{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.links a,nav.menu a{margin-right:16px;color:var(--accent);text-decoration:none;font-size:.95rem}
+.links a:hover,nav.menu a:hover,a:hover{text-decoration:underline}
+nav.menu{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0}
+a{color:var(--accent)}
+main p{margin:0 0 12px}
+.theme{margin-bottom:18px}
+.theme p{color:var(--fg)}
+dl.timeline{display:grid;grid-template-columns:110px 1fr;row-gap:8px;column-gap:16px;margin:0}
+dl.timeline dt{color:var(--muted);font-size:.92rem;padding-top:2px}
+dl.timeline dd{margin:0}
+.note{color:var(--muted);font-size:.92rem}
+ol.pubs{padding-left:1.3em;margin:0}
+ol.pubs li{margin-bottom:11px;font-size:.95rem}
+ol.pubs b{font-weight:600}
+.tag{display:inline-block;background:var(--tag);color:var(--muted);font-size:.78rem;padding:1px 7px;border-radius:4px;margin-left:4px;white-space:nowrap}
+footer{border-top:1px solid var(--rule);margin-top:56px;padding:22px 0 48px;color:var(--muted);font-size:.92rem}
+footer p{margin:0 0 6px}
+.small{font-size:.82rem}
+@media (max-width:560px){header.top{flex-direction:column;align-items:flex-start;gap:16px;padding-top:36px}dl.timeline{grid-template-columns:1fr}dl.timeline dt{padding-top:6px}}
