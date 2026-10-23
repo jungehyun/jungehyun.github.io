@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif" fill="#1c1917">
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#44403c"/></marker></defs>
+  <g font-size="32" font-weight="700" text-anchor="middle"><text x="140" y="70">Measure</text><text x="400" y="70">Model</text><text x="660" y="70">Verify</text></g>
+  <g stroke="#44403c" stroke-width="4" marker-end="url(#ah)"><line x1="252" y1="260" x2="288" y2="260"/><line x1="512" y1="260" x2="548" y2="260"/></g>
+  <!-- measure tile -->
+  <rect x="30" y="100" width="220" height="320" rx="12" fill="#faf7f3" stroke="#a8a29e" stroke-width="2"/>
+  <g><rect x="62" y="130" width="30" height="130" rx="5" fill="#8a6a48" stroke="#5c4330" stroke-width="2"/><rect x="62" y="130" width="30" height="44" rx="5" fill="#5c4330"/>
+     <rect x="108" y="130" width="30" height="130" rx="5" fill="#8a6a48" stroke="#5c4330" stroke-width="2"/><rect x="108" y="130" width="30" height="34" rx="5" fill="#5c4330"/></g>
+  <rect x="154" y="140" width="76" height="110" rx="6" fill="#fff" stroke="#a8a29e" stroke-width="2"/>
+  <path d="M162 236 C 176 232, 182 170, 192 166 C 202 162, 206 220, 216 206 C 222 198, 224 170, 226 160" fill="none" stroke="#7c4a1e" stroke-width="4"/>
+  <g font-size="24" text-anchor="middle" fill="#44403c"><text x="140" y="312">rapid, low-cost,</text><text x="140" y="344">in the field</text></g>
+  <!-- model tile -->
+  <rect x="290" y="100" width="220" height="320" rx="12" fill="#faf7f3" stroke="#a8a29e" stroke-width="2"/>
+  <g font-size="22" font-weight="700" text-anchor="middle">
+    <rect x="310" y="150" width="84" height="54" rx="6" fill="#fde68a" stroke="#a16207" stroke-width="2"/><text x="352" y="185">POM</text>
+    <rect x="406" y="150" width="84" height="54" rx="6" fill="#e7d3c2" stroke="#7c4a1e" stroke-width="2"/><text x="448" y="185">MAOM</text>
+  </g>
+  <line x1="394" y1="177" x2="404" y2="177" stroke="#44403c" stroke-width="3"/>
+  <rect x="330" y="222" width="140" height="70" fill="#fff" stroke="#a8a29e" stroke-width="2"/>
+  <line x1="338" y1="286" x2="462" y2="228" stroke="#a8a29e" stroke-width="2" stroke-dasharray="6 4"/>
+  <g fill="#7c4a1e"><circle cx="352" cy="278" r="4"/><circle cx="372" cy="270" r="4"/><circle cx="392" cy="256" r="4"/><circle cx="412" cy="252" r="4"/><circle cx="432" cy="240" r="4"/><circle cx="450" cy="234" r="4"/></g>
+  <g font-size="24" text-anchor="middle" fill="#44403c"><text x="400" y="344">calibrated on</text><text x="400" y="376">field experiments</text></g>
+  <!-- verify tile -->
+  <rect x="550" y="100" width="220" height="320" rx="12" fill="#faf7f3" stroke="#a8a29e" stroke-width="2"/>
+  <line x1="580" y1="270" x2="740" y2="270" stroke="#a8a29e" stroke-width="2"/>
+  <rect x="596" y="200" width="36" height="70" fill="#e7d3c2" stroke="#7c4a1e" stroke-width="2"/><line x1="614" y1="182" x2="614" y2="218" stroke="#44403c" stroke-width="3"/>
+  <rect x="642" y="150" width="36" height="120" fill="#7c4a1e"/><line x1="660" y1="124" x2="660" y2="176" stroke="#44403c" stroke-width="3"/>
+  <rect x="688" y="222" width="36" height="48" fill="#e7d3c2" stroke="#7c4a1e" stroke-width="2"/><line x1="706" y1="204" x2="706" y2="240" stroke="#44403c" stroke-width="3"/>
+  <g font-size="24" text-anchor="middle" fill="#44403c"><text x="660" y="344">stock change</text><text x="660" y="376">± uncertainty</text></g>
+  <!-- footer -->
+  <text x="400" y="500" font-size="28" font-weight="700" text-anchor="middle" fill="#7c4a1e">low-cost MRV for soil carbon removal</text>
+  <text x="400" y="542" font-size="22" text-anchor="middle" fill="#78716c">Sejong Science Fellowship · 2024–2028</text>
+</svg>
