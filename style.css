@@ -22,7 +22,7 @@ section{padding-top:64px}
 .namerow h1{margin:0}
 .ground{margin:-6px 0 14px 80px;line-height:0}
 .ground svg{display:block;max-width:100%;height:auto}
-.worm{transform:translateY(14px);animation:peek 1.4s .6s cubic-bezier(.2,.8,.2,1) forwards}
+.worm{transform:translateY(18px);animation:peek 1.4s .6s cubic-bezier(.2,.8,.2,1) forwards}
 .hero-text:hover .worm{animation:peek2 .9s ease forwards}
 @keyframes peek{to{transform:translateY(0)}}
 @keyframes peek2{0%{transform:translateY(0)}40%{transform:translateY(-3px)}100%{transform:translateY(0)}}
