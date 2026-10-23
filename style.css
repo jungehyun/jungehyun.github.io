@@ -34,7 +34,7 @@ section{padding-top:64px}
 .logo.word{height:24px;width:auto;max-width:130px}
 .logo.emblem{height:36px;width:auto}
 .logo[alt="KIST"]{height:30px}
-.logo[alt="INRAE"]{height:46px}
+.logo[alt="INRAE"]{height:20px}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
 .about-text{max-width:72ch}
