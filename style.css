@@ -90,7 +90,7 @@ footer p{margin:0 0 6px}
  .xp{grid-template-columns:1fr;gap:6px}
  .mark{justify-self:start;justify-content:flex-start;height:auto;margin-top:4px}
  .namerow{gap:12px}
- .ground{margin-left:0}
+
  .portrait{width:52px;height:52px}
  .cols,.photos3,.about-grid{grid-template-columns:1fr;gap:24px}
  .about-photo{max-width:260px}
