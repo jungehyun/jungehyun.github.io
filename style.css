@@ -29,9 +29,9 @@ section{padding-top:64px}
 .when{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .what{font-size:.95rem}
 .what b{color:var(--ink);font-weight:600}
-.mark{justify-self:end;display:flex;align-items:center;justify-content:flex-end;width:120px;height:44px}
-.logo{max-width:110px;max-height:40px;object-fit:contain;filter:grayscale(1);opacity:.75;transition:filter .2s,opacity .2s}
-.xp:hover .logo{filter:none;opacity:1}
+.mark{justify-self:end;display:flex;align-items:center;justify-content:flex-end;width:130px;height:48px}
+.logo{width:auto;height:34px;max-width:130px;object-fit:contain;display:block}
+.logo.tall{height:44px}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
 .about-text{max-width:72ch}
