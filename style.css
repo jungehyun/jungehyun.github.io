@@ -78,11 +78,13 @@ footer p{margin:0}
 @media (max-width:900px){
  .sheet{padding:0 20px 40px}
  .top{padding-top:20px}
- .pill a{padding:6px 10px;font-size:.82rem}
+ .pill{overflow-x:auto;scrollbar-width:none;max-width:calc(100% - 56px)}
+ .pill::-webkit-scrollbar{display:none}
+ .pill a{padding:6px 10px;font-size:.82rem;white-space:nowrap}
  .spacer{display:none}
  .hero{padding:56px 0 28px}
  .strip{margin:0 -20px;gap:18px;justify-content:flex-start;padding-left:20px}
- .card{width:200px}
+ .card{width:190px}
  .two{grid-template-columns:1fr;gap:28px}
  .cards3{grid-template-columns:1fr}
  .row,.yeargroup{grid-template-columns:1fr;gap:4px}
