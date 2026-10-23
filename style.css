@@ -8,14 +8,8 @@ h1,h2,.brand{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,
 
 /* hero with soil horizons */
 .hero{position:relative;min-height:92vh;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#fbf6ee;text-align:center;padding:60px 20px 80px}
-.horizons{position:absolute;inset:-25% 0 0 0;z-index:0;will-change:transform}
-.hz{position:absolute;left:0;right:0}
-.hz.o{top:0;height:34%;background:linear-gradient(180deg,#2a1d14 0%,#3b2a1e 100%)}
-.hz.a{top:34%;height:26%;background:linear-gradient(180deg,#4a3323 0%,#6b4a2f 100%)}
-.hz.b{top:60%;height:24%;background:linear-gradient(180deg,#7d5736 0%,#a97b4f 100%)}
-.hz.c{top:84%;height:16%;background:linear-gradient(180deg,#b98f62 0%,#d8b98a 100%)}
-.hz::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1.5px),radial-gradient(rgba(0,0,0,.12) 1px,transparent 1.5px);background-size:23px 23px,37px 37px;background-position:0 0,11px 7px;opacity:.9}
-.roots{position:absolute;inset:0;width:100%;height:100%}
+.horizons{position:absolute;inset:-22% 0 0 0;z-index:0;will-change:transform}
+.soil{width:100%;height:100%;object-fit:cover;display:block}
 .hero-inner{position:relative;z-index:1;max-width:760px;animation:rise 1s ease-out both}
 @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 .photo{width:132px;height:132px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.75);box-shadow:0 12px 40px rgba(0,0,0,.35);margin-bottom:18px}
