@@ -15,13 +15,13 @@ section{padding-top:64px}
 .top nav a{margin-left:22px;font-size:.92rem;color:var(--ink2)}
 .top nav a:hover{color:var(--ink);text-decoration:none}
 
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding-top:64px}
+.hero{display:grid;grid-template-columns:1fr 340px;gap:56px;align-items:center;padding-top:56px}
 .hero h1{font-size:clamp(2.4rem,4.5vw,3.4rem);font-weight:700;letter-spacing:-.03em;line-height:1.05;margin-bottom:14px}
 .role{margin:0 0 20px;color:var(--muted);font-size:.95rem}
 .tagline{font-size:1.3rem;line-height:1.4;color:var(--ink);font-weight:500;letter-spacing:-.01em;margin:0 0 22px;max-width:28ch}
 .links{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0;font-size:.95rem}
 .hero-photo{margin:0}
-.hero-photo img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block;border-radius:6px}
+.hero-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;display:block;border-radius:6px}
 
 /* experience */
 .xps{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
@@ -29,9 +29,10 @@ section{padding-top:64px}
 .when{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .what{font-size:.95rem}
 .what b{color:var(--ink);font-weight:600}
-.mark{justify-self:end;display:flex;align-items:center;justify-content:flex-end;width:130px;height:48px}
-.logo{width:auto;height:34px;max-width:130px;object-fit:contain;display:block}
-.logo.tall{height:46px}
+.mark{justify-self:end;display:flex;align-items:center;justify-content:flex-end;gap:14px;min-width:130px;height:48px}
+.logo{display:block;object-fit:contain}
+.logo.word{height:22px;width:auto;max-width:130px}
+.logo.emblem{height:36px;width:auto}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
 .about-text{max-width:72ch}
@@ -65,7 +66,8 @@ footer p{margin:0 0 6px}
  .top nav a:nth-child(2),.top nav a:nth-child(3){display:none}
  .hero{grid-template-columns:1fr;gap:28px;padding-top:40px}
  .xp{grid-template-columns:1fr;gap:6px}
- .mark{justify-self:start;justify-content:flex-start}
+ .mark{justify-self:start;justify-content:flex-start;height:auto;margin-top:4px}
+ .hero-photo{max-width:340px}
  .cols,.photos3{grid-template-columns:1fr;gap:24px}
  .pub-head{flex-direction:column;align-items:flex-start;gap:4px}
  section{padding-top:48px}
