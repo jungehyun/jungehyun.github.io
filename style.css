@@ -18,19 +18,21 @@ h3{color:var(--ink);font-weight:600;font-size:1rem;margin:0 0 6px}
 .pill a:hover{color:var(--accent);background:var(--soft)}
 
 /* hero */
-.hero{max-width:720px;padding:88px 0 40px}
-.hero h1{font-size:clamp(2.1rem,4.3vw,3.1rem);line-height:1.12;font-weight:700;letter-spacing:-.035em;color:var(--ink);margin:0 0 22px}
-.bio{font-size:1.02rem;margin:0 0 22px}
-.social{display:flex;gap:18px;margin:0}
-.social a svg{width:22px;height:22px;fill:var(--muted);transition:fill .2s}
-.social a:hover svg{fill:var(--accent)}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding:72px 0 28px}
+.hero h1{font-size:clamp(2.4rem,4.6vw,3.6rem);line-height:1.05;font-weight:700;letter-spacing:-.035em;color:var(--ink);margin:0 0 14px}
+.title{margin:0 0 18px;font-size:.95rem;color:var(--muted)}
+.tagline{font-size:1.25rem;line-height:1.4;color:var(--ink);font-weight:500;letter-spacing:-.01em;margin:0 0 24px;max-width:26ch}
+.social{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.social a{padding:8px 14px;border:1px solid var(--line);border-radius:999px;font-size:.88rem;font-weight:500;color:var(--ink);background:var(--sheet);box-shadow:var(--shadow);transition:border-color .2s,color .2s}
+.social a:hover{border-color:var(--accent);color:var(--accent)}
+.hero-photo{margin:0;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:3/2;background:var(--soft)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
 
 /* strip */
 .strip{display:flex;gap:28px;justify-content:center;padding:34px 0 10px;margin:0 -64px;overflow:hidden}
-.card{flex:none;width:260px;aspect-ratio:9/10;border-radius:18px;background:var(--soft);box-shadow:var(--shadow);overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
-.card .fig{width:92%;height:auto;display:block}
+.card{flex:none;width:250px;aspect-ratio:4/5;border-radius:18px;background:var(--soft);box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
 .c1{transform:rotate(2deg)}.c2{transform:rotate(-2deg)}.c3{transform:rotate(2deg)}.c4{transform:rotate(-2deg)}.c5{transform:rotate(2deg)}
-@media (prefers-color-scheme:dark){.card .fig rect:first-child{fill:#23201c}.fig text{fill:#8f8577}}
 
 /* about */
 section{padding:56px 0 8px}
@@ -46,10 +48,17 @@ section{padding:56px 0 8px}
 
 /* research cards */
 .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.cards3 article{border:1px solid var(--line);border-radius:18px;padding:22px 22px 20px;background:var(--sheet);box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.cards3 article{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--sheet);box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.cards3 article img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.cards3 article>div{padding:18px 22px 20px}
 .cards3 article:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(0,0,0,.05),0 16px 36px rgba(0,0,0,.09)}
 .cards3 .k{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.12em;color:var(--accent);margin-bottom:12px}
 .cards3 p{margin:0;font-size:.92rem}
+
+/* band */
+.band{margin:56px -64px 0;border-radius:0;overflow:hidden;position:relative}
+.band img{width:100%;aspect-ratio:21/8;object-fit:cover;display:block}
+.band figcaption{position:absolute;left:0;right:0;bottom:0;padding:16px 64px;color:#fff;font-size:.86rem;background:linear-gradient(transparent,rgba(0,0,0,.45))}
 
 /* rows */
 .rows{list-style:none;padding:0;margin:0}
@@ -82,7 +91,9 @@ footer p{margin:0}
  .pill::-webkit-scrollbar{display:none}
  .pill a{padding:6px 10px;font-size:.82rem;white-space:nowrap}
  .spacer{display:none}
- .hero{padding:56px 0 28px}
+ .hero{grid-template-columns:1fr;gap:24px;padding:40px 0 20px}
+ .band{margin:40px -20px 0}
+ .band figcaption{padding:12px 20px}
  .strip{margin:0 -20px;gap:18px;justify-content:flex-start;padding-left:20px}
  .card{width:190px}
  .two{grid-template-columns:1fr;gap:28px}
