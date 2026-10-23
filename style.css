@@ -38,7 +38,7 @@ section{padding-top:64px}
 .logo.word{height:24px;width:auto;max-width:130px}
 .logo.emblem{height:36px;width:auto}
 .logo[alt="KIST"]{height:30px}
-.logo[alt="Kyung Hee University"]{height:46px}
+.logo[alt="Kyung Hee University"]{height:54px}
 .nw{white-space:nowrap}
 svg.logo.inrae{height:20px;width:auto}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
