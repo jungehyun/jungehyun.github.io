@@ -46,10 +46,10 @@ section{padding-top:64px}
 svg.logo.inrae{height:20px;width:auto}
 .logo-text{font-size:.78rem;color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
-.about-grid{display:grid;grid-template-columns:1fr 260px;gap:48px;align-items:start}
+.about-grid{display:grid;grid-template-columns:1fr 220px;gap:48px;align-items:start;margin-bottom:36px}
 .about-text{max-width:72ch}
 .about-photo{margin:0}
-.about-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:6px;display:block}
+.about-photo img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:6px;display:block}
 .about-photo figcaption{font-size:.8rem;color:var(--muted);margin-top:6px}
 .about-text p{margin:0 0 16px}
 
