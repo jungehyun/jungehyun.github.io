@@ -16,7 +16,7 @@ b{font-weight:600}
 /* hero */
 .hero{position:relative;max-width:1240px;margin:0 auto;padding:11vh 28px 9vh;overflow:hidden}
 .disc{position:absolute;right:-6vw;top:4vh;width:min(56vw,620px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--ochre2),var(--ochre) 60%,#a9642a);z-index:0}
-.statement{position:relative;z-index:1;margin:0;font-weight:500;font-size:clamp(2.3rem,6.4vw,5.6rem);line-height:1.04;letter-spacing:-.03em;max-width:16ch}
+.statement{position:relative;z-index:1;margin:0;font-weight:500;font-size:clamp(2.3rem,6.4vw,5.6rem);line-height:1.04;letter-spacing:-.03em;max-width:19ch}
 .statement span{display:block}
 .statement .l2,.statement .l4{padding-left:.9em}
 .statement .l5{padding-left:1.8em}
