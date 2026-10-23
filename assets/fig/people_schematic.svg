@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif" fill="#1c1917">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#44403c"/></marker>
+  </defs>
+  <!-- hexagon of six soil functions -->
+  <g transform="translate(400 300)">
+    <polygon points="0,-190 165,-95 165,95 0,190 -165,95 -165,-95" fill="#faf7f3" stroke="#a8a29e" stroke-width="1.5"/>
+    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60" fill="none" stroke="#e7e2dc" stroke-width="1"/>
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="none" stroke="#e7e2dc" stroke-width="1"/>
+    <!-- centre -->
+    <circle cx="0" cy="0" r="62" fill="#fff" stroke="#a8a29e"/>
+    <text x="0" y="-6" font-size="13" text-anchor="middle" font-weight="600">soils built or</text>
+    <text x="0" y="12" font-size="13" text-anchor="middle" font-weight="600">managed by people</text>
+  </g>
+  <!-- function labels -->
+  <g font-size="15" text-anchor="middle">
+    <text x="400" y="86">physical stability</text><text x="400" y="104" fill="#78716c" font-size="13">and support</text>
+    <text x="640" y="190">pollutant</text><text x="640" y="208" fill="#78716c" font-size="13">immobilisation</text>
+    <text x="640" y="418">habitat</text><text x="640" y="436" fill="#78716c" font-size="13">provision</text>
+    <text x="400" y="522">organic matter</text><text x="400" y="540" fill="#78716c" font-size="13">stabilisation</text>
+    <text x="160" y="418">nutrient supply</text><text x="160" y="436" fill="#78716c" font-size="13">and retention</text>
+    <text x="160" y="190">water storage</text><text x="160" y="208" fill="#78716c" font-size="13">and infiltration</text>
+  </g>
+  <!-- left: urban green space pictogram -->
+  <g transform="translate(40 300)">
+    <rect x="0" y="40" width="90" height="12" fill="#a8a29e"/>
+    <rect x="30" y="20" width="30" height="20" fill="#8a6a48"/>
+    <rect x="42" y="-30" width="6" height="50" fill="#5c4330"/>
+    <circle cx="45" cy="-40" r="22" fill="#4d7c0f"/>
+    <rect x="0" y="-70" width="18" height="110" fill="#d6d3d1"/><rect x="72" y="-56" width="18" height="96" fill="#d6d3d1"/>
+    <text x="45" y="76" font-size="13" text-anchor="middle" fill="#78716c">urban green space</text>
+  </g>
+  <!-- right: biochar field pictogram -->
+  <g transform="translate(670 300)">
+    <rect x="0" y="20" width="90" height="32" fill="#8a6a48"/>
+    <g fill="#1c1917"><circle cx="12" cy="30" r="2"/><circle cx="30" cy="42" r="2"/><circle cx="48" cy="28" r="2"/><circle cx="66" cy="40" r="2"/><circle cx="80" cy="30" r="2"/><circle cx="40" cy="34" r="2"/></g>
+    <g stroke="#4d7c0f" stroke-width="2.5" fill="none"><path d="M15 20 v-26 m0 10 l-7 -8 m7 2 l7 -8"/><path d="M45 20 v-30 m0 12 l-7 -8 m7 2 l7 -8"/><path d="M75 20 v-26 m0 10 l-7 -8 m7 2 l7 -8"/></g>
+    <text x="45" y="76" font-size="13" text-anchor="middle" fill="#78716c">biochar-amended field</text>
+  </g>
+  <!-- C and N fluxes -->
+  <g font-size="15" font-weight="600">
+    <line x1="85" y1="200" x2="85" y2="150" stroke="#44403c" stroke-width="2" marker-end="url(#ah)"/><text x="100" y="160">CO₂</text>
+    <line x1="715" y1="200" x2="715" y2="150" stroke="#44403c" stroke-width="2" marker-end="url(#ah)"/><text x="730" y="160">N₂O</text>
+  </g>
+  <text x="400" y="580" font-size="14" text-anchor="middle" fill="#78716c">six soil functions of the ecosystem-services-based soil quality index · carbon and nitrogen fluxes</text>
+</svg>

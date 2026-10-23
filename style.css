@@ -43,6 +43,7 @@ section{padding-top:64px}
 @keyframes slide{0%{opacity:0}2.4%{opacity:1}14.3%{opacity:1}16.7%{opacity:0}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.hero-photo img{animation:none}.hero-photo img:first-child{opacity:1}}
 .rfig{margin:0 0 14px;background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.rfig a{display:block}
 .rfig img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;display:block;background:#fff;padding:6px;box-sizing:border-box}
 .rfig figcaption{font-size:.72rem;color:var(--muted);padding:5px 10px 6px;border-top:1px solid var(--line)}
 .cols h3{white-space:nowrap}
