@@ -38,14 +38,11 @@ section{padding-top:64px}
 .hero-photo img:first-child{animation-name:slide-first}
 @keyframes slide-first{0%,14.3%{opacity:1}16.7%,100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.worm{animation:none;transform:none}.hero-photo img{animation:none}.hero-photo img:first-child{opacity:1}}
-.rfig{margin:0 0 14px;background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden}
-.rfig a{display:block;transition:transform .25s ease}
-.rfig a:hover{transform:translateY(-2px)}
-.rfig img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;display:block;background:#fff;padding:6px;box-sizing:border-box}
-.rfig figcaption{font-size:var(--fs-xs);color:var(--muted);padding:5px 10px 6px;border-top:1px solid var(--line)}
-.cols h3{white-space:nowrap}
 
 /* experience */
+.interests{margin:0;padding-left:1.1em;font-size:1.0625rem;line-height:1.6}
+.interests li{margin:8px 0}
+.interests li::marker{color:var(--accent)}
 .xps{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
 .xp{display:grid;grid-template-columns:120px 1fr 190px;gap:24px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
 .xp .with{color:var(--muted);font-size:var(--fs-s)}
@@ -62,8 +59,6 @@ section{padding-top:64px}
 svg.logo.inrae{height:20px;width:auto}
 .logo-text{font-size:var(--fs-xs);color:var(--muted);text-align:right;line-height:1.2;font-style:italic}
 
-.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
-.col p{margin:0;font-size:var(--fs-m)}
 
 .pub-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px}
 .note{color:var(--muted);font-size:var(--fs-s);margin:0 0 20px}
@@ -93,9 +88,7 @@ a:focus-visible,.top nav a:focus-visible{outline:2px solid var(--accent);outline
 
  .portrait{width:52px;height:52px}
  .role{font-size:var(--fs-s)}
- .cols{grid-template-columns:1fr;gap:24px}
- .cols h3{white-space:normal}
- .pub-head{flex-direction:column;align-items:flex-start;gap:4px}
+   .pub-head{flex-direction:column;align-items:flex-start;gap:4px}
  section{padding-top:48px}
 }
 @media (max-width:400px){
